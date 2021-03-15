@@ -1,0 +1,15 @@
+facade - TP2
+
+-------------------------------------------
+Sans modifier le point d'entrée de l'application créer les classes nécessaire pour que le programme affiche en sortie :
+
+
+         Circle::draw()
+         Rectangle::draw()
+         Square::draw()
+         Circle::draw()
+         Circle::draw()
+
+Vous devez résoudre cet exercice à l'aide du design pattern "Facade" Vous devez créer les classes Rectangle, Square et Circle comme étant des Shape
+
+Télécharger le code initial du projet ici =>FacadeTP2.

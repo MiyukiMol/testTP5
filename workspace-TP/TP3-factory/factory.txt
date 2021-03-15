@@ -1,0 +1,41 @@
+factory - TP3
+
+--------------
+
+Modifier le programme pour permettre de créer des Building au travers d'un design pattern "Factory" :
+1.Il existe 3 façon de créer des Building
+
+1-1.Créer aléatoirement pour toutes les classes du package courant qui implémente "Building", qui possède un constructeur vide, qui sont publiques et qui ne sont pas abstraites
+
+1-2.Créer depuis une chaîne de caractère qui représente le "simpleName" de la classe à utiliser qui implémente "Building", qui possède un constructeur vide, qui est publique et qui n'est pas abstraite
+
+1-3.Depuis une classe qui implémente "Building", qui possède un constructeur vide, qui est publique et qui n'est pas abstraite
+
+
+2.Créer deux listes de building dans le point d'entré de l'application
+        
+2-1.La première liste doit contenir 20 Building généré aléatoirement
+        
+2-2.La deuxième doit contenir au moins une fois chaque classe qui implémente "Building", qui possède un constructeur vide, qui sont publiques et qui ne sont pas abstraites. En utilisant soit les chaîne de caractères ou les classes
+
+Télécharger le code initial du projet ici =>FactoryTP1.zip.
+
+-------------------------------------
+Information pour la remise
+
+Vous devez fournir ici le lien github de votre projet.
+
+Pour rappel :
+
+    Une fois git installé sur votre PC
+    Créer un nouveau répertoire sur github
+    Ouvrer une invite de commande dans le dossier du projet
+        Taper la commande "git init"
+        Taper la commande "git add -A"
+        Taper la commande "git commit -m"TP"
+        Copier coller les commandes proposé par github
+
+            git remote add origin https://github.com/antoinecronier/test.git
+
+            git push -u origin master
+

@@ -1,0 +1,52 @@
+adapter - TP4
+
+---------------------
+
+Réaliser le programme JAVA répondant à l’énoncé :
+
+Sans modifier le point d'entré de l'application mettre en place un design pattern "Adapter" afin d'avoir les éléments suivant :
+
+1. Un AudioPlayer est par défaut seulement capable de jouer des fichiers .mp3 avec ça fonction play()
+    
+2. Un Mp4Player doit être capable de jouer des fichiers .mp4
+    
+3. Un VlcPlayer doit être capable de jouer des fichiers .vlc
+    
+4. En modifiant la fonction play() dans AudioPlayer permettre, grâce à un design pattern Adapter, de lire des fichiers .mp4 et .vlc en plus des fichiers .mp3
+    
+5. On peut utiliser un design pattern "Factory" afin de récupérer le bon type de player, Mp4Player ou VlcPlayer, pour notre AudioPlayer
+    
+6. Le lancement de l'application doit afficher les éléments suivant :
+
+       Playing mp3 file. Name: beyond the horizon.mp3
+       Playing mp4 file. Name: alone.mp4
+       Playing vlc file. Name: far far away.vlc
+       Invalid media. avi format not supported
+       Playing mp4 file. Name: test.mp4
+       Playing mp4 file. Name: test1.mp4
+
+Télécharger le code initial du projet ici => AdapterTP1.zip.
+
+--------------------------------
+
+Information pour la remise
+
+Vous devez fournir ici le lien github de votre projet.
+
+Pour rappel :
+
+Une fois git installé sur votre PC
+    
+Créer un nouveau répertoire sur github
+    
+Ouvrer une invite de commande dans le dossier du projet
+
+        Taper la commande "git init"
+        Taper la commande "git add -A"
+        Taper la commande "git commit -m"TP"
+        Copier coller les commandes proposé par github
+
+            git remote add origin https://github.com/antoinecronier/test.git
+
+            git push -u origin master
+

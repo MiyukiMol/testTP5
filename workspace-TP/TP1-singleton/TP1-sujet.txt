@@ -1,0 +1,11 @@
+singleton - TP1
+
+Modifier le programme pour :
+
+1. permettre d'accéder n'importe où dans le projet à la liste d'Entity1
+
+2. faire en sorte que les ajouts, suppression sur la liste d'Entity1 soient préservés durant l'exécution du programme
+
+3.que les id des éléments dans la liste ne soient plus saisissables par le développeur et qu'ils deviennent auto-incrémentés
+
+Télécharger le code initial du projet ici =>SingltonTP1.zip.
